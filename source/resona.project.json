@@ -1,0 +1,11 @@
+{
+  "name": "Night Rider",
+  "id": "org.resona.demo.night-rider",
+  "version": "0.3.0",
+  "api": 1,
+  "description": "The illustrated night ride as a whammy: hold the big knob and the bike accelerates as the pitch glides up to the set range; the Rider Engine pack turns speed into sound.",
+  "kind": "app",
+  "sources": [
+    "src/app.cpp"
+  ]
+}

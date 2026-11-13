@@ -1,0 +1,7 @@
+{
+  "description": "按设定的半音范围推高吉他音高，松手时滑回原位。",
+  "readme": "# Rider Engine\n\n按设定的半音范围推高吉他音高，松手时滑回原位。\n\n## 使用方法\n\n1. 先在 Resona Box 上安装本音频包。\n2. 安装并打开 Night Rider 0.3.0。\n3. 在 App 界面使用上方和下方编码器控制音色与功能。\n\n## 配套关系\n\n- 音频包：`org.resona.demo.night-rider.engine`，版本 0.2.1\n- App：`org.resona.demo.night-rider`，版本 0.3.0\n\n完整界面及双编码器的旋转、短按、长按说明见 Night Rider 的社区项目页面。\n",
+  "release_notes": "",
+  "source_url": "https://github.com/k2-k3n/night-rider/tree/main/source/dsp",
+  "category": ""
+}

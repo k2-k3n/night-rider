@@ -1,0 +1,10 @@
+{
+  "name": "Rider Engine",
+  "id": "org.resona.demo.night-rider.engine",
+  "version": "0.2.1",
+  "api": 1,
+  "description": "Mono guitar engine for Night Rider: period-locked whammy pitch shifter, then speed-driven drive and tone, idle throb and air-rush flanger, level-matched across speeds.",
+  "sources": [
+    "src/main.cpp"
+  ]
+}

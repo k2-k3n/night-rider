@@ -1,0 +1,26 @@
+{
+  "controllerVersion": "0.3.0",
+  "enabled": true,
+  "entries": {
+    "mobile": "mobile/index.html",
+    "web": "web/index.html"
+  },
+  "entry": "mobile/index.html",
+  "format": "clcontrol",
+  "id": "org.resona.demo.night-rider.controller",
+  "interfaces": [
+    "web",
+    "mobile"
+  ],
+  "name": "Night Rider",
+  "permissions": [
+    "midi"
+  ],
+  "target": {
+    "appId": "org.resona.demo.night-rider",
+    "appName": "Night Rider",
+    "appVersion": "0.3.0",
+    "protocolVersion": 1
+  },
+  "version": 1
+}

@@ -1,0 +1,31 @@
+{
+  "folder": "12-Night-Rider",
+  "description": "按住下方旋钮使摩托车加速，吉他音高滑向设定音程。",
+  "app": {
+    "file": "App.rpk",
+    "id": "org.resona.demo.night-rider",
+    "name": "Night Rider",
+    "version": "0.3.0",
+    "kind": 1,
+    "bytes": 184596,
+    "sha256": "7c8ea07cbec5e50c827a364019369a96931ef7c157c3f925389c11170635558d",
+    "crc32": 2419974960
+  },
+  "audio_packs": [
+    {
+      "file": "Audio-Pack.rpk",
+      "id": "org.resona.demo.night-rider.engine",
+      "name": "Rider Engine",
+      "version": "0.2.1",
+      "kind": 0,
+      "bytes": 6728,
+      "sha256": "008bd31418029bbbeec2ff004422b39c5d7fc50e501fd64e1d98e6fed77612a2",
+      "crc32": 60787495
+    }
+  ],
+  "source": "source/",
+  "cover": "界面.png",
+  "license_file_present": false,
+  "host_build_check": "passed",
+  "community_upload": "not sent"
+}
