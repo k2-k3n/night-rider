@@ -2,7 +2,7 @@
 
 ![Night Rider](community-cover.png)
 
-按住下方旋钮，吉他的音高像摩托车加速一样往上滑。松手就落回去。
+下方长按触发滑音，吉他的音高随摩托车一起加速。可切换 CRUISE、SPORT 和 TURBO，升调范围为 +1 到 +24 半音。
 
 ## 配套音频包
 
@@ -14,7 +14,9 @@
 
 | 页面／模式 | 上方旋转 | 上方短按 | 上方长按 | 下方旋转 | 下方短按 | 下方长按／按住 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Night Rider | 选 CRUISE／SPORT／TURBO | 干声对比开／关 | 立即保存 | 设移调范围 +1～+24 半音 | 短踩可做短促升降音 | 按住升到设定音程，松开回落 |
+| Night Rider | 选 CRUISE／SPORT／TURBO | 干声对比开／关 | 立即保存 | 设移调范围 +1～+24 半音 | 无独立短按功能 | 长按触发升调 |
+
+下方长按触发升调。收到实体松手事件时，音高随松手回落。若固件只报告长按手势，触发约 1 秒后会自动回落。
 
 ## 项目详细说明
 
@@ -32,7 +34,7 @@ replace the art before any public release.
 | Control | Turn | Click | Long press / hold |
 |---|---|---|---|
 | SELECTOR (top) | style: CRUISE, SPORT, TURBO | DRY compare on/off | save now |
-| CUSTOMIZE (big) | whammy range, +1 to +24 semitones | | whammy: up to the range in 1 s, held while you hold; back down in 0.6 s on release |
+| CUSTOMIZE (big) | whammy range, +1 to +24 semitones | — | Whammy glides up in 1 s and back down in about 0.6 s. On firmware that reports only long-press gestures, it starts returning about 1 s after the trigger. |
 
 Range, style, MIX and LEVEL are saved 1.5 s after a change (and at once on a SELECTOR long press).
 
